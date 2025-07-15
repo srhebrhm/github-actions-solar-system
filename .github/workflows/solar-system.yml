@@ -39,7 +39,6 @@ jobs:
 
     docker:
         name: Containerization
-        needs: unit-testing
         runs-on: ubuntu-latest
         steps:
         - name: Checkout Repository
